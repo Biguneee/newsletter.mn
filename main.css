@@ -144,10 +144,22 @@ h1, h2{
 body{
     font-family: 'Montserrat', sans-serif;
     background: #F0F0F0;
-}
+    margin-left: 10%;
+    margin-right: 10%;
+  }
 
 article{
-    border: 2px solid grey;
+    border: 2px solid #d5d5d5;
     padding: 10px;
     margin: 10px;
+}
+
+.title{
+  padding: 2px -10px; /* Small padding to control the size of the highlight */
+  display: inline-block; /* Make the background wrap closely around the text */
+  border-radius: 3px;
+  letter-spacing: -1px;
+  
+  font-family: 'Montserrat Alternates', sans-serif;;
+  font-weight: 600;
 }
