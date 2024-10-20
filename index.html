@@ -1,328 +1,350 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Newsletter.mn</title>
     <link rel="stylesheet" href="main.css">
-    
+
     <!-- Google fonts -->
     <!-- Montserrat -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-    
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
     <!-- Montserrat Alternates-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-    
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
     <!-- FontAwesome -->
     <script src="https://kit.fontawesome.com/a80341e502.js" crossorigin="anonymous"></script>
 
     <link rel="stylesheet" href="">
 </head>
+
 <body>
 
     <!-- Header -->
-     <header>
-        <div class = "navigation-container">
-            <div class = "top-head">
-                <div class = "web-name">
-                    <h1>Newsletter.mn</h1>
-                </div>
-
-                <div class = "ham-btn">
-                    <span>
-                        <i class = "fas fa-bars"></i>
-                    </span>
-                </div>
-
-                <div class="times-btn">
-                    <span>
-                        <i class = "fas fa-times"></i>
-                    </span>
-                </div>
-                <meta name="description" content="Medeenii angilaluud end baih ba hereglegch uuriin hussen categorygoor haih bolomjtoi bolno.">
-                 <div class = "nav-bar" id = "nav-bar">
-                    <nav>
-                        <ul>
-                            <li ><a href="#">Олон Улсын</a></li>
-                            <li><a href="#">Улс төр</a></li>
-                            <li><a href="#">Бизнесс</a></li>
-                            <li><a href="#">Нийгэм</a></li>
-                            <li><a href="#">Өшөө харах</a></li>
-                        </ul>
-                    </nav>
-                    <div class="search">
-                        <form action="#">
-                            <input type="text" placeholder="Мэдээ хайх..."
-                                   name="search">
-                                   <button type="button" aria-label="Search">🔍</button>
-
-                        </form>
-                    </div>
-                 </div>
-
-
-            </div>
+    <header class="header">
+        <div class="web-name">
+            <h1>Newsletter.mn</h1>
         </div>
-     </header>
-     <meta name="description" content="Unuudriin medeenii heseg endees ehleh ba zuvhun unuudur bolson shuurhai notstoi medeeg haruulna.">
-<!---------------------------------------------Өнөөдрийн мэдээ--------------------------------------------->
-     <section class = "articles-today">
+
+        <nav class="nav-bar" id="nav-bar">
+            <ul>
+                <li><a href="#">Олон Улсын</a></li>
+                <li><a href="#">Улс төр</a></li>
+                <li><a href="#">Бизнесс</a></li>
+                <li><a href="#">Нийгэм</a></li>
+                <li><a href="#">Бусад</a></li>
+            </ul>
+        </nav>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+            integrity="sha512-CgD45Eu0On6cLKyPsm7uNcm9TC1dR6ah9I3rHVCocwGAhSYF1i06h0A7vJgjU9n1iS2A+B3NBiD6xy4o6I3fKQ=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
+                <div class="search">
+                  <form action="#">
+                    <div class="search-wrapper">
+                      <input type="text" placeholder="Хайх..." name="search">
+                      <button type="submit" aria-label="Search"><i class="fa fa-search"></i></button> <!-- Font Awesome Search Icon -->
+                    
+                    </div>
+                    <button class="logout-button" aria-label="Logout"><i class="fa-solid fa-arrow-right-to-bracket"></i></button>
+
+                  </form>
+                </div>
+              </div>
+              
+    </header>
+
+
+    <meta name="description"
+        content="Unuudriin medeenii heseg endees ehleh ba zuvhun unuudur bolson shuurhai notstoi medeeg haruulna.">
+    <!---------------------------------------------Өнөөдрийн мэдээ--------------------------------------------->
+    <section class="articles-today">
         <h2>Өнөөдрийн мэдээ</h2>
-            <article id="today-left">
-                <img src = "https://picsum.photos/id/100/200/150" alt="">
-                <div>
-                    <h3>Өнөөдрийн мэдээ 01</h3>
+        <article id="today-left">
+            <img src="https://picsum.photos/id/100/200/150" alt="">
+            <div>
+                <h3>Өнөөдрийн мэдээ 01</h3>
 
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis ea sint, nisi rem earum fugit? Facere veritatis sapiente eveniet quibusdam.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis ea sint, nisi rem earum fugit?
+                    Facere veritatis sapiente eveniet quibusdam.</p>
 
-                    <a href = "#">Read More <span>>></span></a>
-                </div>
-            </article>
-            <article id="today-middle">
-                <img src = "https://picsum.photos/id/101/200/150" alt="">
-                <div>
-                    <h3>Өнөөдрийн мэдээ 02</h3>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi iure modi animi cupiditate. Explicabo, nihil?</p>
+                <a href="#">Read More <span>>></span></a>
+            </div>
+        </article>
+        <article id="today-middle">
+            <img src="https://picsum.photos/id/101/200/150" alt="">
+            <div>
+                <h3>Өнөөдрийн мэдээ 02</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi iure modi animi cupiditate.
+                    Explicabo, nihil?</p>
 
-                    <a href = "#">Read More <span>>></span></a>
-                </div>
-            </article>
+                <a href="#">Read More <span>>></span></a>
+            </div>
+        </article>
 
-            <article id="today-right">
-                <img src = "https://picsum.photos/id/102/200/150" alt="">
-                <div>
-                    <h3>Өнөөдрийн мэдээ 03</h3>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi iure modi animi cupiditate. Explicabo, nihil?</p>
+        <article id="today-right">
+            <img src="https://picsum.photos/id/102/200/150" alt="">
+            <div>
+                <h3>Өнөөдрийн мэдээ 03</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi iure modi animi cupiditate.
+                    Explicabo, nihil?</p>
 
-                    <a href = "#">Read More <span>>></span></a>
-                </div>
-            </article>
-    </section><meta name="description" content="Ontsloh medeenii heseg endees ehleh ba tuhain udriin hamgiin chuhal hun bolgon medeh heregtei gesen medeeg ontsloh medee hesegt bairshuulna.">
-<!---------------------------------------------Онцлох мэдээ--------------------------------------------->
-     <section class = "articles-trending">
+                <a href="#">Read More <span>>></span></a>
+            </div>
+        </article>
+    </section>
+    <meta name="description"
+        content="Ontsloh medeenii heseg endees ehleh ba tuhain udriin hamgiin chuhal hun bolgon medeh heregtei gesen medeeg ontsloh medee hesegt bairshuulna.">
+    <!---------------------------------------------Онцлох мэдээ--------------------------------------------->
+    <section class="articles-trending">
         <h2>Онцлох мэдээ</h2>
-            <article id="trending-01">
-                <img src = "https://picsum.photos/id/103/200/150" alt="">
-                <div>
-                    <h3>Онцлох мэдээ 01</h3>
+        <article id="trending-01">
+            <img src="https://picsum.photos/id/103/200/150" alt="">
+            <div>
+                <h3>Онцлох мэдээ 01</h3>
 
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis ea sint, nisi rem earum fugit? Facere veritatis sapiente eveniet quibusdam.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis ea sint, nisi rem earum fugit?
+                    Facere veritatis sapiente eveniet quibusdam.</p>
 
-                    <a href = "#">Read More <span>>></span></a>
-                </div>
-            </article>
-            <article id="trending-02">
-                <img src = "https://picsum.photos/id/104/200/150" alt="">
-                <div>
-                    <h3>Онцлох мэдээ 02</h3>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi iure modi animi cupiditate. Explicabo, nihil?</p>
+                <a href="#">Read More <span>>></span></a>
+            </div>
+        </article>
+        <article id="trending-02">
+            <img src="https://picsum.photos/id/104/200/150" alt="">
+            <div>
+                <h3>Онцлох мэдээ 02</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi iure modi animi cupiditate.
+                    Explicabo, nihil?</p>
 
-                    <a href = "#">Read More <span>>></span></a>
-                </div>
-            </article>
+                <a href="#">Read More <span>>></span></a>
+            </div>
+        </article>
 
-            <article id="articles">
-                <img src = "https://picsum.photos/id/106/200/150" alt="">
-                <div>
-                    <h3>Онцлох мэдээ 03</h3>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi iure modi animi cupiditate. Explicabo, nihil?</p>
+        <article id="articles">
+            <img src="https://picsum.photos/id/106/200/150" alt="">
+            <div>
+                <h3>Онцлох мэдээ 03</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi iure modi animi cupiditate.
+                    Explicabo, nihil?</p>
 
-                    <a href = "#">Read More <span>>></span></a>
-                </div>
-            </article>
+                <a href="#">Read More <span>>></span></a>
+            </div>
+        </article>
 
-            <article id="articles">
-                <img src = "https://picsum.photos/id/107/200/150" alt="">
-                <div>
-                    <h3>Онцлох мэдээ 04</h3>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi iure modi animi cupiditate. Explicabo, nihil?</p>
+        <article id="articles">
+            <img src="https://picsum.photos/id/107/200/150" alt="">
+            <div>
+                <h3>Онцлох мэдээ 04</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi iure modi animi cupiditate.
+                    Explicabo, nihil?</p>
 
-                    <a href = "#">Read More <span>>></span></a>
-                </div>
-            </article>
+                <a href="#">Read More <span>>></span></a>
+            </div>
+        </article>
 
-            <article id="articles">
-                <img src = "https://picsum.photos/id/108/200/150" alt="">
-                <div>
-                    <h3>Онцлох мэдээ 05</h3>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi iure modi animi cupiditate. Explicabo, nihil?</p>
+        <article id="articles">
+            <img src="https://picsum.photos/id/108/200/150" alt="">
+            <div>
+                <h3>Онцлох мэдээ 05</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi iure modi animi cupiditate.
+                    Explicabo, nihil?</p>
 
-                    <a href = "#">Read More <span>>></span></a>
-                </div>
-            </article>
+                <a href="#">Read More <span>>></span></a>
+            </div>
+        </article>
 
-            <article id="articles">
-                <img src = "https://picsum.photos/id/109/200/150" alt="">
-                <div>
-                    <h3>Онцлох мэдээ 06</h3>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi iure modi animi cupiditate. Explicabo, nihil?</p>
+        <article id="articles">
+            <img src="https://picsum.photos/id/109/200/150" alt="">
+            <div>
+                <h3>Онцлох мэдээ 06</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi iure modi animi cupiditate.
+                    Explicabo, nihil?</p>
 
-                    <a href = "#">Read More <span>>></span></a>
-                </div>
-            </article>
+                <a href="#">Read More <span>>></span></a>
+            </div>
+        </article>
     </section>
 
-<!---------------------------------------------Latest news--------------------------------------------->
-    <section class = "articles-latest">
+    <!---------------------------------------------Latest news--------------------------------------------->
+    <section class="articles-latest">
         <h2>Шинэ мэдээ</h2>
-            <article id="latest-01">
-                <img src = "https://picsum.photos/id/110/200/150" alt="">
-                <div>
-                    <h3>Шинэ мэдээ 01</h3>
+        <article id="latest-01">
+            <img src="https://picsum.photos/id/110/200/150" alt="">
+            <div>
+                <h3>Шинэ мэдээ 01</h3>
 
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis ea sint, nisi rem earum fugit? Facere veritatis sapiente eveniet quibusdam.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis ea sint, nisi rem earum fugit?
+                    Facere veritatis sapiente eveniet quibusdam.</p>
 
-                    <a href = "#">Read More <span>>></span></a>
-                </div>
-            </article>
-            <article id="latest-02">
-                <img src = "https://picsum.photos/id/111/200/150" alt="">
-                <div>
-                    <h3>Шинэ мэдээ 02</h3>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi iure modi animi cupiditate. Explicabo, nihil?</p>
+                <a href="#">Read More <span>>></span></a>
+            </div>
+        </article>
+        <article id="latest-02">
+            <img src="https://picsum.photos/id/111/200/150" alt="">
+            <div>
+                <h3>Шинэ мэдээ 02</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi iure modi animi cupiditate.
+                    Explicabo, nihil?</p>
 
-                    <a href = "#">Read More <span>>></span></a>
-                </div>
-            </article>
+                <a href="#">Read More <span>>></span></a>
+            </div>
+        </article>
 
-            <article id="articles">
-                <img src = "https://picsum.photos/id/112/200/150" alt="">
-                <div>
-                    <h3>Шинэ мэдээ 03</h3>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi iure modi animi cupiditate. Explicabo, nihil?</p>
+        <article id="articles">
+            <img src="https://picsum.photos/id/112/200/150" alt="">
+            <div>
+                <h3>Шинэ мэдээ 03</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi iure modi animi cupiditate.
+                    Explicabo, nihil?</p>
 
-                    <a href = "#">Read More <span>>></span></a>
-                </div>
-            </article>
+                <a href="#">Read More <span>>></span></a>
+            </div>
+        </article>
 
-            <article id="articles">
-                <img src = "https://picsum.photos/id/113/200/150" alt="">
-                <div>
-                    <h3>Шинэ мэдээ 04</h3>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi iure modi animi cupiditate. Explicabo, nihil?</p>
+        <article id="articles">
+            <img src="https://picsum.photos/id/113/200/150" alt="">
+            <div>
+                <h3>Шинэ мэдээ 04</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi iure modi animi cupiditate.
+                    Explicabo, nihil?</p>
 
-                    <a href = "#">Read More <span>>></span></a>
-                </div>
-            </article>
+                <a href="#">Read More <span>>></span></a>
+            </div>
+        </article>
 
-            <article id="articles">
-                <img src = "https://picsum.photos/id/114/200/150" alt="">
-                <div>
-                    <h3>Шинэ мэдээ 05</h3>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi iure modi animi cupiditate. Explicabo, nihil?</p>
+        <article id="articles">
+            <img src="https://picsum.photos/id/114/200/150" alt="">
+            <div>
+                <h3>Шинэ мэдээ 05</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi iure modi animi cupiditate.
+                    Explicabo, nihil?</p>
 
-                    <a href = "#">Read More <span>>></span></a>
-                </div>
-            </article>
+                <a href="#">Read More <span>>></span></a>
+            </div>
+        </article>
 
-            <article id="articles">
-                <img src = "https://picsum.photos/id/115/200/150" alt="">
-                <div>
-                    <h3>Шинэ мэдээ 06</h3>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi iure modi animi cupiditate. Explicabo, nihil?</p>
+        <article id="articles">
+            <img src="https://picsum.photos/id/115/200/150" alt="">
+            <div>
+                <h3>Шинэ мэдээ 06</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi iure modi animi cupiditate.
+                    Explicabo, nihil?</p>
 
-                    <a href = "#">Read More <span>>></span></a>
-                </div>
-            </article>
+                <a href="#">Read More <span>>></span></a>
+            </div>
+        </article>
     </section>
 
-<!---------------------------------------------Танд санал болгох--------------------------------------------->
+    <!---------------------------------------------Танд санал болгох--------------------------------------------->
 
-    <section class = "articles-recommended">
+    <section class="articles-recommended">
         <h2>Танд санал болгох</h2>
 
-            <article id="articles">
-                <img src = "https://picsum.photos/id/116/200/150" alt="">
-                <div>
-                    <h3>Санал болгож буй мэдээ 01</h3>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi iure modi animi cupiditate. Explicabo, nihil?</p>
+        <article id="articles">
+            <img src="https://picsum.photos/id/116/200/150" alt="">
+            <div>
+                <h3>Санал болгож буй мэдээ 01</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi iure modi animi cupiditate.
+                    Explicabo, nihil?</p>
 
-                    <a href = "#">Read More <span>>></span></a>
-                </div>
-            </article>
+                <a href="#">Read More <span>>></span></a>
+            </div>
+        </article>
 
-            <article id="articles">
-                <img src = "https://picsum.photos/id/117/200/150" alt="">
-                <div>
-                    <h3>Санал болгож буй мэдээ 02</h3>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi iure modi animi cupiditate. Explicabo, nihil?</p>
+        <article id="articles">
+            <img src="https://picsum.photos/id/117/200/150" alt="">
+            <div>
+                <h3>Санал болгож буй мэдээ 02</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi iure modi animi cupiditate.
+                    Explicabo, nihil?</p>
 
-                    <a href = "#">Read More <span>>></span></a>
-                </div>
-            </article>
+                <a href="#">Read More <span>>></span></a>
+            </div>
+        </article>
 
-            <article id="articles">
-                <img src = "https://picsum.photos/id/118/200/150" alt="">
-                <div>
-                    <h3>Санал болгож буй мэдээ 03</h3>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi iure modi animi cupiditate. Explicabo, nihil?</p>
+        <article id="articles">
+            <img src="https://picsum.photos/id/118/200/150" alt="">
+            <div>
+                <h3>Санал болгож буй мэдээ 03</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi iure modi animi cupiditate.
+                    Explicabo, nihil?</p>
 
-                    <a href = "#">Read More <span>>></span></a>
-                </div>
-            </article>
+                <a href="#">Read More <span>>></span></a>
+            </div>
+        </article>
 
-            <article id="articles">
-                <img src = "https://picsum.photos/id/119/200/150" alt="">
-                <div>
-                    <h3>Санал болгож буй мэдээ 04</h3>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi iure modi animi cupiditate. Explicabo, nihil?</p>
+        <article id="articles">
+            <img src="https://picsum.photos/id/119/200/150" alt="">
+            <div>
+                <h3>Санал болгож буй мэдээ 04</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi iure modi animi cupiditate.
+                    Explicabo, nihil?</p>
 
-                    <a href = "#">Read More <span>>></span></a>
-                </div>
-            </article>
+                <a href="#">Read More <span>>></span></a>
+            </div>
+        </article>
 
-            <article id="articles">
-                <img src = "https://picsum.photos/id/120/200/150" alt="">
-                <div>
-                    <h3>Санал болгож буй мэдээ 05</h3>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi iure modi animi cupiditate. Explicabo, nihil?</p>
+        <article id="articles">
+            <img src="https://picsum.photos/id/120/200/150" alt="">
+            <div>
+                <h3>Санал болгож буй мэдээ 05</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi iure modi animi cupiditate.
+                    Explicabo, nihil?</p>
 
-                    <a href = "#">Read More <span>>></span></a>
-                </div>
-            </article>
+                <a href="#">Read More <span>>></span></a>
+            </div>
+        </article>
 
-            <article id="articles">
-                <img src = "https://picsum.photos/id/121/200/150" alt="">
-                <div>
-                    <h3>Санал болгож буй мэдээ 06</h3>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi iure modi animi cupiditate. Explicabo, nihil?</p>
+        <article id="articles">
+            <img src="https://picsum.photos/id/121/200/150" alt="">
+            <div>
+                <h3>Санал болгож буй мэдээ 06</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi iure modi animi cupiditate.
+                    Explicabo, nihil?</p>
 
-                    <a href = "#">Read More <span>>></span></a>
-                </div>
-            </article>
+                <a href="#">Read More <span>>></span></a>
+            </div>
+        </article>
 
-            <article id="articles">
-                <img src = "https://picsum.photos/id/122/200/150" alt="">
-                <div>
-                    <h3>Санал болгож буй мэдээ 07</h3>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi iure modi animi cupiditate. Explicabo, nihil?</p>
+        <article id="articles">
+            <img src="https://picsum.photos/id/122/200/150" alt="">
+            <div>
+                <h3>Санал болгож буй мэдээ 07</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi iure modi animi cupiditate.
+                    Explicabo, nihil?</p>
 
-                    <a href = "#">Read More <span>>></span></a>
-                </div>
-            </article>
+                <a href="#">Read More <span>>></span></a>
+            </div>
+        </article>
 
-            <article id="articles">
-                <img src = "https://picsum.photos/id/123/200/150" alt="">
-                <div>
-                    <h3>Санал болгож буй мэдээ 08</h3>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi iure modi animi cupiditate. Explicabo, nihil?</p>
+        <article id="articles">
+            <img src="https://picsum.photos/id/123/200/150" alt="">
+            <div>
+                <h3>Санал болгож буй мэдээ 08</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi iure modi animi cupiditate.
+                    Explicabo, nihil?</p>
 
-                    <a href = "#">Read More <span>>></span></a>
-                </div>
-            </article>
+                <a href="#">Read More <span>>></span></a>
+            </div>
+        </article>
     </section>
 
     <button>Хамгийн дээд хэсэг рүү буцах</button>
-<!---------------------------------------------Footer--------------------------------------------->
+    <!---------------------------------------------Footer--------------------------------------------->
     <footer>
-        <div class = "footer-container">
-            <div class = "footer-left">
+        <div class="footer-container">
+            <div class="footer-left">
                 <h2>Newsletter.mn</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur molestias aut blanditiis totam quia enim, autem tenetur cum facere, fugit beatae at voluptas ipsum perferendis!</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur molestias aut blanditiis totam
+                    quia enim, autem tenetur cum facere, fugit beatae at voluptas ipsum perferendis!</p>
             </div>
         </div>
 
@@ -332,4 +354,5 @@
 
     <script src="script.js"></script>
 </body>
+
 </html>
