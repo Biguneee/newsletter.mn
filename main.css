@@ -171,6 +171,7 @@ h2 {
   font-family: 'Montserrat Alternates', sans-serif;
   font-size: 18px;
   margin-top: -35px;
+  margin-bottom: 10px;
   color: rgba(0, 0, 0, 0.85);
 }
 
@@ -359,18 +360,6 @@ article {
   background-color: #8AFF53; /* Change background on hover */
   color: white; /* Change icon color on hover */
 }
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* 
   Body, button, comment-thread, and utilities
