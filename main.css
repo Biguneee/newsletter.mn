@@ -152,7 +152,7 @@ h1{
 }
 .center-header {
   text-align: center; /* Center-align everything inside */
-  margin-top: 20px;
+  margin-top: -10px;
 }
 
 h2 {
@@ -183,7 +183,6 @@ body {
 }
 
 article {
-  border: 2px solid #d5d5d5;
   padding: 10px;
   margin: 10px;
 }
@@ -287,6 +286,82 @@ article {
 .logout-button:hover .fa-arrow-right-to-bracket {
   color: white; /* Change icon color on hover */
 }
+
+/* Center the article on the page */
+#today-left {
+  position: relative;
+  width: 600px; /* Width for the larger image */
+  height: 400px; /* Adjust height as needed */
+  margin: -10px auto; /* Center the article in the container */
+  text-align: center;
+}
+
+/* Center the image within the article with rounded corners */
+#today-left img {
+  width: 101%; 
+  height: 100%; 
+  object-fit: cover; /* Keeps the image proportional */
+  display: block; /* Removes bottom space below image */
+  border-radius: 20px; /* Rounded corners */
+}
+
+/* Style the text and button over the image */
+#today-left div {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end; /* Aligns content to the start (top) */
+  align-items: flex-start; /* Aligns content to the left */
+  text-align: left; /* Ensure text is left aligned */
+  
+  padding: 20px; /* Add padding to prevent text from touching edges */
+}
+/* Style for <p> and <p2> with white background */
+#today-left p{
+  background-color: white; /* White background for the text */
+  padding: 5px 15px; /* Increased padding for a bigger background */
+  font-family: Arial, sans-serif;
+  font-size: 25px;
+  color: black;
+  max-width: 90%; /* Prevents text from overflowing */
+  margin: 55px 0; /* Reduce top margin to allow more space at the bottom */
+  font-weight: bold; /* Make text bold */
+  word-spacing: 7px; /* Adjust this value to increase spacing between words */
+  border-radius: 10px; /* Makes the corners rounded */
+  margin-left: 8px;
+}
+
+/* Style for the save button */
+.save-button {
+  width: 40px; /* Fixed width */
+  height: 40px; /* Fixed height */
+  border: none; /* No border */
+  border-radius: 50%; /* Circular button */
+  background-color: white; /* Gray background */
+  color: black; /* Icon color */
+  font-size: 20px; /* Icon size */
+  cursor: pointer; /* Pointer cursor on hover */
+  transition: background-color 0.2s; /* Transition effects */
+  display: flex; /* Flexbox for centering the icon */
+  justify-content: center; /* Center the icon */
+  align-items: center; /* Center the icon vertically */
+  position: absolute; /* Position it absolutely */
+  right: 15px; /* Adjust as needed */
+  bottom: 130px; /* Adjust as needed */
+}
+
+/* Hover Effect on Save Button */
+.save-button:hover {
+  background-color: #8AFF53; /* Change background on hover */
+  color: white; /* Change icon color on hover */
+}
+
+
+
 
 
 
