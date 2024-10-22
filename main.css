@@ -368,6 +368,144 @@ article {
       - This section sets some basic styles. You can ignore this part and 
       go directly to the comment styles.
 */
+/* Center the article on the page */
+#today-first {
+  position: absolute;
+  width: 400px; /* Width for the larger image */
+  height: 200px; /* Adjust height as needed */
+  margin: -10px auto;
+  text-align: left;
+}
+
+/* Center the image within the article with rounded corners */
+#today-first img {
+  width: 100%; /* Image takes full width of its container */
+  height: 100%;  /* Maintain aspect ratio */
+  
+  border-radius: 20px; 
+}
+
+/* Style the text and button over the image */
+#today-first {
+  position: absolute;
+  top: 300px;
+  left: 150px;
+  width: 315px; /* Adjust width as needed */
+  height: 315px; /* Adjust height as needed */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end; /* Align content to the bottom */
+  align-items: center; /* Align content to the center */
+  text-align: center;
+  
+}
+
+/* Style the <p> element inside #today-first */
+#today-first p {
+  font-size: 16px; /* Adjust size as needed */
+  margin-bottom: 10px; /* Adjust to move the text a bit */
+  color: #333; /* Set text color */
+  text-align: left;
+  font-weight: bold;
+  font-size: 17px;
+  
+}
+/* Style for the save button */
+#today-first .save-button {
+  top: 170px;
+  width: 40px; /* Fixed width */
+  height: 40px; /* Fixed height */
+  border: none; /* No border */
+  border-radius: 50%; /* Circular button */
+  background-color: white; /* Gray background */
+  color: black; /* Icon color */
+  font-size: 20px; /* Icon size */
+  cursor: pointer; /* Pointer cursor on hover */
+  transition: background-color 0.2s; /* Transition effects */
+  display: flex; /* Flexbox for centering the icon */
+  justify-content: center; /* Center the icon */
+  align-items: center; /* Center the icon vertically */
+  position: absolute; /* Position it absolutely */
+  right: 15px; /* Adjust as needed */
+  bottom: 130px; /* Adjust as needed */
+}
+
+/* Center the article on the page */
+#today-right {
+  position: absolute;
+  width: 400px; /* Width for the larger image */
+  height: 200px; /* Adjust height as needed */
+  right: 0px; /* Position on the right side */
+  margin: -10px 20px; /* Adjust to control spacing */
+  text-align: left;
+}
+
+/* Center the image within the article with rounded corners */
+#today-right img {
+  width: 100%; /* Image takes full width of its container */
+  height: 100%; /* Fill the container's height */
+  border-radius: 20px; /* Rounded corners */
+}
+
+/* Style the text and button over the image */
+#today-right {
+  position: absolute;
+  top: 280px;
+  right: 125px; /* Position closer to the right side */
+  width: 315px; /* Adjust width as needed */
+  height: 315px; /* Adjust height as needed */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end; /* Align content to the bottom */
+  align-items: center; /* Center the content horizontally */
+  text-align: center;
+}
+
+/* Style the <p> element inside #today-right */
+#today-right p {
+  font-size: 16px; /* Adjust font size */
+  margin-bottom: 10px; /* Space below the text */
+  color: #333; /* Set text color */
+  text-align: left; /* Align text to the left */
+  font-weight: bold; /* Make text bold */
+  font-size: 17px; /* Adjust font size */
+}
+#today-right .save-button {
+  top: 182px;
+  width: 40px; /* Fixed width */
+  height: 40px; /* Fixed height */
+  border: none; /* No border */
+  border-radius: 50%; /* Circular button */
+  background-color: white; /* Gray background */
+  color: black; /* Icon color */
+  font-size: 20px; /* Icon size */
+  cursor: pointer; /* Pointer cursor on hover */
+  transition: background-color 0.2s; /* Transition effects */
+  display: flex; /* Flexbox for centering the icon */
+  justify-content: center; /* Center the icon */
+  align-items: center; /* Center the icon vertically */
+  position: absolute; /* Position it absolutely */
+  right: 15px; /* Adjust as needed */
+  bottom: 130px; /* Adjust as needed */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 ul {
